@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="style.css">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lista de contactos</title>
+</head>
+<body>
+	<script src="lista.js"></script>
+	<h1>LISTA DE CONTACTOS</h1>
+ 
+<table id="miTabla">
+	<thead>
+		<tr>
+			<td>NOMBRES</td>
+			<td>APELLIDOS</td>
+			<td>CORREO</td>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+ 
+<p>
+	<form class= formulario>
+		<label>Nombre:</label> <input type="text" id="nombre">
+		<label>Apellidos:</label> <input type="text" id="apellidos">
+		<label>Correo:</label> <input type="text" id="correo">
+		<p>
+			<input  type="button" onclick="agregarValores();" value="Agregar">
+		</p>
+	</form>
+</p>
+	
+</body>
+</html>

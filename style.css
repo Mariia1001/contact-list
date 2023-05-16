@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    background-color: rgb(217, 219, 218);
+}
+#miTabla {
+    text-align: center;
+    padding-left: 12cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#miTabla thead tr td {font-weight:bold;
+     padding:10px;
+     text-align: center;
+    }
+	#miTabla tbody tr:nth-child(odd) {background-color:#f8f8f8;
+    text-align: center;
+}
+
+	#miTabla tr {
+        text-align: center;
+        padding-left: 4cm;
+        
+    }
+
+	#miTabla td {
+        text-align: center;
+        padding: 10px;
+    }
+ 
+	form {width:300px;
+        text-align:center;
+    }
+	form label {display:inline-block;
+        width:100px;
+        text-align:center;
+
+    }
+    
+    .formulario{
+        text-align: center;
+        padding-top: 1cm;
+        padding-left: 12cm;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(63, 59, 59);
+    }
+    
+    
