@@ -8,6 +8,8 @@ var count=0;
 		var nombre=document.getElementById("nombre").value;
 		var apellidos=document.getElementById("apellidos").value;
 		var correo=document.getElementById("correo").value;
+		var telefono=document.getElementById("telefono").value;
+		var direccion=document.getElementById("direccion").value;
  
 		// La variable cont, genera un id unico para cada contacto
 		// Este id es el utilizado para eliminar-lo
@@ -27,7 +29,11 @@ var count=0;
 			var td3 = document.createElement("TD");
 			td3.appendChild(document.createTextNode(correo));
 			var td4 = document.createElement("TD");
-			td4.appendChild(crearButton(count));
+			td4.appendChild(document.createTextNode(telefono));
+			var td5 = document.createElement("TD");
+			td5.appendChild(document.createTextNode(direccion));
+			var td6 = document.createElement("TD");
+			td6.appendChild(crearButton(count));
  
 			var row = document.createElement("TR");
 			row.setAttributeNode(attrId);
@@ -35,6 +41,8 @@ var count=0;
 			row.appendChild(td2);
 			row.appendChild(td3);
 			row.appendChild(td4);
+			row.appendChild(td5);
+			row.appendChild(td6);
 			tbody.appendChild(row);
 		}
  
@@ -42,6 +50,8 @@ var count=0;
 		document.getElementById("nombre").value="";
 		document.getElementById("apellidos").value="";
 		document.getElementById("correo").value="";
+		document.getElementById("telefono").value="";
+		document.getElementById("direccion").value="";
 	}
  
 	/**
